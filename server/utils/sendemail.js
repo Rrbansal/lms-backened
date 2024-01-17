@@ -8,15 +8,16 @@ const sendEmail = async function (email, subject, message) {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user:"riya12807@gmail.com",
+      // give your own mail id
+      user:"",
       // ek site mei jake app password bnao then wo password yha use kro
-      pass: "zzdd gwlj hadx wdas",
+      pass: ""
     },
   });
 
   // send mail with defined transport object
   await transporter.sendMail({
-    from: "riya12807@gmail.com", // sender address
+    from: "", // sender address
     to: email, // user email
     subject: subject, // Subject line
     html: message, // html body
