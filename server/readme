@@ -1,13 +1,1 @@
-cd server
-npm init
-
-if you want to use import from and export default the in description add 
-"type":"module"
-
-npm install express cookie-parser cloudinary cors dotenv jsonwebtoken mongoose multer nodemailer morgan  nodemon --save
-
-
-
-need tocraete account on cloudinary 
-
-postman mei multiform mei dena register krte hue bec image bhi hai
+lms backened project
